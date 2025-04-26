@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import b
 
-const square = () => {
+const Square = () => {
   return (
     <div>
       Square
@@ -8,4 +9,4 @@ const square = () => {
   )
 }
 
-export default square
+export default Square
