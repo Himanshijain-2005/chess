@@ -1,12 +1,11 @@
 import React from 'react';
-import b
 
-const Square = () => {
+const Square = (props) => {
   return (
-    <div>
-      Square
-    </div>
-  )
-}
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+};
 
-export default Square
+export default Square;
